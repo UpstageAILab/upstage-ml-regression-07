@@ -12,12 +12,19 @@
 
 ### Overview
 
-- _Write competition information_
+- **House Price Prediction | 아파트 실거래가 예측**
+- 서울시 아파트 실거래가 매매 데이터를 기반으로 아파트 가격을 예측하는 대회
+  
+<img width="500" alt="스크린샷 2024-01-18 오후 2 39 56" src="https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/3a6076ac-60ea-434a-87ba-e67ed97fa041"><img width="510" alt="스크린샷 2024-01-18 오후 2 39 42" src="https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/3e1136d0-6f0b-4abc-8960-ee9a427e7850">
+
+
+
+
 
 ### Timeline
 
-- ex) January 10, 2024 - Start Date
-- ex) February 10, 2024 - Final submission deadline
+- ex) January 15, 2024 - Start Date
+- ex) January 25, 2024 - Final submission deadline
 
 ### Evaluation
 
@@ -68,7 +75,7 @@
 
 ### Meeting Log
 
-- _Insert your meeting log link like Notion or Google Docs_
+- https://www.notion.so/7-9bf356d1cd69404681bd4a0ba7453c77
 
 ### Reference
 
