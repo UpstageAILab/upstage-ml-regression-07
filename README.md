@@ -28,7 +28,10 @@
 
 ### Evaluation
 
-- _Write how to evaluate model_
+- 해당 시점의 매매 실거래가를 예측하는 Regression 대회이며, 평가지표는 RMSE(Root Mean Squared Error)를 사용합니다.
+<img width="539" alt="스크린샷 2024-01-18 오후 2 54 04" src="https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/e1ec2b35-cb45-4070-9289-fdfa1fd2c50b">
+
+- RMSE는 예측된 값과 실제 값 간의 평균편차를 측정합니다. 아파트 매매의 맥락에서는 회귀 모델이 실제 거래 가격의 차이를 얼마나 잘 잡아내는지 측정합니다. 
 
 ## 2. Components
 
