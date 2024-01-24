@@ -3,8 +3,7 @@
 
 ## Team
 
-| ![이명진](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서재현](<img src="![KakaoTalk_20240124_120525243](https://github.com/UpstageAILab/upstage-ml-regression-07/assets/116725865/585189fd-002f-43c5-83e2-2a103b0077c6)
-" width="400" height="300"/>) | ![신주용](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이영훈](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이준형](https://avatars.githubusercontent.com/u/156163982?v=4) |
+| ![이명진](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서재현](https://avatars.githubusercontent.com/u/156163982?v=4)) | ![신주용](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이영훈](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이준형](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |            [이명진](https://github.com/UpstageAILab)             |            [서재현](https://github.com/UpstageAILab)             |            [신주용](https://github.com/UpstageAILab)             |            [이영훈](https://github.com/UpstageAILab)             |            [이준형](https://github.com/UpstageAILab)             |
 |                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
