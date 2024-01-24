@@ -72,7 +72,7 @@
 - _Describe your EDA process and step-by-step conclusion_
 
 ### Feature engineering
-
+ - 실험실험실험 
 - _Describe feature engineering process_
 
 ## 4. Modeling
