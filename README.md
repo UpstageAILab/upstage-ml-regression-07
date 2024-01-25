@@ -40,8 +40,9 @@
 ## 2. Components
 
 ### Directory
+![스크린샷 2024-01-25 오후 8 52 25](https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/ecf592bd-d0a3-433e-b0da-e1e3a5de7fcf)
 
-- _Insert your directory structure_
+
 
 ## 3. Data descrption
 
