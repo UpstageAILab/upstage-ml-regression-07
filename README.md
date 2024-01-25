@@ -139,6 +139,27 @@
   
 ## 4. Modeling
 
+#### Train-Validation Split
+
+> 부동산 데이터는 자산 가격 특성상 외부적 요인에 영향을 매우 많이 받을 가능성이 높습니다.
+실제로 대통령이 누구인지에 따라서도 가격 상승에 차이가 많이 납니다.
+하지만 이런 비정형 데이터(자산 상승 호재, 재건축 찌라시)를 약 20년간에 걸쳐 찾거나 정의하는 것은 어렵습니다.
+따라서 최신의 데이터를 잘 맞추는 모델로 진행해보자라는 결론을 도출했습니다.
+
+- Train-valid를 random split으로 하는것이 아니라 2023년 4~6월을 validation으로 선정하고, 이전 데이터를 Train dataset으로 지정했습니다.
+- 또한, 학습 자체도 3년 이내의 부동산 데이터만 활용해서, 시기적 특성요소를 최대한 덜 학습하도록 했습니다.
+- 진행하는 과정에서 Validation RMSE와 리더보드 RMSE 결과가 비례하지 않아 2023년 1월 ~ 3월을 Valid로, 2023년 4월 ~ 6월은 test 데이터셋으로 구축해서 모델간에 비교를 진행해서 최우수 모델로 선정했습니다.
+
+#### 가격대별 별도 모델 구축
+
+> RMSE가 8만 ~ 10만 정도로 나오는데 이렇게나 지표가 높게 나타난다는 것은 결국 비싼 아파트를 싸게 예측하는 경우밖에 없다고 판단했습니다.
+실제로 valid data에서 예측을 잘 못하는 모델을 보아도 90억짜리 아파트를 28억으로 예측하는 것을 볼 수 있습니다.
+
+
+- 따라서 최종 모델은 30억 이상 고가 아파트를 예측하는 모델과 그 이하 가격대의 아파트를 예측하는 모델을 분리하고 답을 합치는 형태로 진행했습니다.
+- 30억 이상 고가라는 것을 테스트 데이터에서는 확인할 수 없기 때문에 2020.01~2023.06 동안 30억 이상으로 거래된 아파트들을 모두 가져와서 트레이닝 데이터셋으로 구축했고, 테스트 데이터셋에서는 이 아파트명을 가진 index만 예측했습니다.
+- 실제 프로덕션에서 이 모델을 활용하기 위해서는 별도로 고가 아파트라는 데이터셋을 구축해야한다는 한계가 있습니다.
+
 #### 저가 아파트 모델링 : 30억 미만
 - target 300,000 미만 데이터 사용
   - 학습 데이터 : 2020년 01월 ~ 2022년 12월
@@ -171,14 +192,14 @@
 - 최종 학습 및 2023.04~2023.06 최종 테스트
   - num_estimators 수 : 410개
   - Test Score : 30572.5281
-  - 
+
 #### 최종 제출 모델
 - 저가 아파트 모델 예측값 & 고가 아파트 모델 예측값
 - 저가 아파트 데이터 : 2020년 01월 ~ 2023년 03월
 - 고가 아파트 데이터 : 2023년 01월 ~ 2023년 06월
 - 평가 데이터 : 2023년 07월 ~ 2023년 09월 
 - 모델 : LightGBM
-- H- yper-Parameter tuning : WandB
+- Hyper-Parameter tuning : WandB
 
 > <저가 아파트 모델>
 - Train RMSE : 4958.61
@@ -198,14 +219,13 @@
 
 ### Leader Board
 
-#### Public LB
-
-<img width="1090" alt="스크린샷 2024-01-25 오후 4 27 19" src="https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/942cf4cb-d78a-46db-8059-2e554d879748">
+#### Private LB
+<img width="1094" alt="스크린샷 2024-01-25 오후 7 38 09" src="https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/8c5a662b-bc08-40e2-8204-2081150386da">
 
 
 ### Presentation
 
-- _Insert your presentaion file(pdf) link_
+[House Price Prediction Presentation.pdf](https://github.com/UpstageAILab/upstage-ml-regression-07/files/14050892/House.Price.Prediction.Presentation.pdf)
 
 ## etc
 
