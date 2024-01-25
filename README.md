@@ -10,7 +10,7 @@
 
 ##  :clipboard: Stacks 
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white"> <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=for-the-badge&logo=Google colab&logoColor=white">  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=NumPy&logoColor=white"> <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=Polars&logoColor=white"> <img src="https://img.shields.io/badge/scikit-learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <img src="https://img.shields.io/badge/Zoom-0B5CFF?style=for-the-badge&logo=Zoom&logoColor=white">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"> <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"> <img src="https://img.shields.io/badge/Zoom-0B5CFF?style=for-the-badge&logo=Zoom&logoColor=white"> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white">
 
 ## 1. Competiton Info
 
@@ -78,6 +78,13 @@
 - 대부분의 결측치가 존재하는 열은 약 100만개 데이터 중 약 87만개가 결측치
 -서울시 건축물 대장 데이터에서 도로명 주소를 기반으로 결측치를 채움
 - 이외 여러 새로운 feature를 추가
+
+#### < 전용면적 feature >
+![스크린샷 2024-01-25 오후 4 39 45](https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/0fa6fe80-827a-409f-ac0d-ab7b53e80003)
+
+- 전용 면적이 클수록 아파트 가격이 상대적으로 높음
+- 전용 면적이 작을수록 아파트 가격이 상대적으로 낮음
+- 전용 면적과 아파트 가격인 target은 서로 양의 상관관계를 가지고 있음  
 
 #### < 한강거리 feature >
 ![스크린샷 2024-01-25 오후 3 48 04](https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/36c80e6b-bb62-4896-a9b9-b6184e067afb)
