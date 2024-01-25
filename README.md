@@ -215,7 +215,10 @@
   https://www.notion.so/7-9bf356d1cd69404681bd4a0ba7453c77
 
 ### Reference
+- Kaggle House Prices - Advanced Regression Techniques
 
+  https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+  
 - Kaggle Handbook: Tips & Tricks To Survive a Kaggle Shake-up
   
   https://medium.com/global-maksimum-data-information-technologies/kaggle-handbook-tips-tricks-to-survive-a-kaggle-shake-up-23675beed05e
