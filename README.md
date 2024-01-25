@@ -1,5 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/g6ZC_OOE)
+
 # House Price Prediction Competition 
+<img width="1023" alt="스크린샷 2024-01-25 오후 8 59 34" src="https://github.com/UpstageAILab/upstage-ml-regression-07/assets/46295610/3dfff23e-49f6-47a7-a200-901ac4df1d4c">
 
 ## Team
 
