@@ -3,7 +3,7 @@
 
 ## Team
 
-| ![이명진](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서재현](https://github.com/UpstageAILab/upstage-ml-regression-07/assets/116725865/4bacd3a4-e386-4da0-9be9-ed42caafeca0) | ![신주용](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이영훈](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이준형](https://avatars.githubusercontent.com/u/156163982?v=4) |
+| ![이명진](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서재현](https://github.com/UpstageAILab/upstage-ml-regression-07/assets/116725865/fadbd90c-cea1-4d70-9823-7302b6b2d748) | ![신주용](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이영훈](https://avatars.githubusercontent.com/u/156163982?v=4) | ![이준형](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |            [이명진](https://github.com/myeongwang)             |            [서재현](https://github.com/SeoJaeHyeon)             |            [신주용](https://github.com/kimddong23)             |            [이영훈](https://github.com/ANGHOOO)             |            [이준형](https://github.com/Perelman-0)             |
 |                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
