@@ -222,4 +222,28 @@
 
 - Dacon Code Share :  아파트 실거래가 예측 대회
   
-  https://dacon.io/competitions/official/21265/codeshare/439?page=1&dtype=recent   
+  https://dacon.io/competitions/official/21265/codeshare/439?page=1&dtype=recent
+
+- 건축물 대장 Data
+  
+  https://openab.seoul.go.kr/build/info.do?gubun=document
+
+- 시군구별 근로소득 Data
+
+  https://kosis.kr/statHtml/statHtml.do?tblId=DT_133001N_4215&orgId=133&language=kor&conn_path=&vw_cd=&list_id
+
+- 매매수급동향 Data
+
+  https://www.data.go.kr/data/15044273/fileData.do
+
+- 서울시 연도별 GDP Data
+
+  https://data.seoul.go.kr/dataList/91/S/2/datasetView.do
+
+- 기준금리 Data
+
+  https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643
+
+- 소비자물가지수 Data
+
+  https://www.index.go.kr/unify/idx-info.do?idxCd=4226
