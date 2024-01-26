@@ -243,8 +243,8 @@ output : 9,272개의 input에 대한 예상 아파트 거래금액
 
 
 ### Presentation
+[패스트캠퍼스X업스테이지 AI Lab_집값 예측 대회 ML 7조.pdf](https://github.com/UpstageAILab/upstage-ml-regression-07/files/14059434/X.AI.Lab_.ML.7.pdf)
 
-[House Price Prediction Presentation.pdf](https://github.com/UpstageAILab/upstage-ml-regression-07/files/14050892/House.Price.Prediction.Presentation.pdf)
 
 ## etc
 
