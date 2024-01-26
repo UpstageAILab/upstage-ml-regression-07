@@ -232,7 +232,7 @@ output : 9,272개의 input에 대한 예상 아파트 거래금액
 - Public RMSE : 104262.6919
 
 > <Private 결과>
-- Private RMSE : 제발 1등 기원 !!!!
+- Private RMSE : 86148.2275
 
 ## 5. Result
 
