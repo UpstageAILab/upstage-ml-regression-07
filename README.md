@@ -253,6 +253,8 @@ output : 9,272개의 input에 대한 예상 아파트 거래금액
   
   https://www.notion.so/7-9bf356d1cd69404681bd4a0ba7453c77
 
+- 대회 마지막 주는 Zoom 실시간 미팅(10:00am ~ 19:00pm)   
+
 ### Reference
 - Kaggle House Prices - Advanced Regression Techniques
 
